@@ -1,7 +1,7 @@
 document.querySelector(".js-go").addEventListener("click", function () {
   var input = document.querySelector("input").value;
   var url =
-    "http://api.giphy.com/v1/gifs/search?q=" +
+    "https://api.giphy.com/v1/gifs/search?q=" +
     input +
     "&api_key=U9aIyKli7Jxp38TqdOC2yePIEm07ZSHb";
 
@@ -21,7 +21,7 @@ document
     if (keyPressed.which == 13) {
       var input = document.querySelector("input").value;
       var url =
-        "http://api.giphy.com/v1/gifs/search?q=" +
+        "https://api.giphy.com/v1/gifs/search?q=" +
         input +
         "&api_key=U9aIyKli7Jxp38TqdOC2yePIEm07ZSHb";
 
