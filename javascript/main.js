@@ -5,7 +5,7 @@ document.querySelector(".js-go").addEventListener("click", function () {
     input +
     "&api_key=U9aIyKli7Jxp38TqdOC2yePIEm07ZSHb";
 
-  var GiphyAJAXCall = new XMLHttpRequest();
+  var GiphyAJAXCall = new XMLHttpsRequest();
   GiphyAJAXCall.open("GET", url);
   GiphyAJAXCall.send();
 
