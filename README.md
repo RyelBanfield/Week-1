@@ -1,5 +1,7 @@
 # Giphy Search built with JavaScript & Giphy API
 
+![screenshot](./Screenshot.png)
+
 > A simple website that returns you gifs from Giphy website.
 
 Additional description about the project and its features.
