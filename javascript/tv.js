@@ -43,8 +43,10 @@ function pushToDOM (input) {
 
   container.innerHTML = ''
 
-  imageUrls.forEach(function (image) {
-    const imageUrl = image.images.fixed_height.url
-    container.innerHTML += '<img src="' + imageUrl + '" class="m-1">'
+  imageUrls.forEach(function (image, index) {
+    setTimeout(function () {
+      const imageUrl = image.images.fixed_height.url
+      container.innerHTML = '<img src="' + imageUrl + '" class="m-1">'
+    }, index * 1500)
   })
 }
